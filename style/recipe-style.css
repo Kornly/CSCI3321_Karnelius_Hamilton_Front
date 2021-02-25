@@ -1,0 +1,18 @@
+<style>
+p, li,ul {
+           color: #000000;
+           text-align: left;                    
+           font-size: 18px
+           }
+           
+h2 {
+           color: #000000;
+           text-align: left;
+           font-size: 25px                        
+           }
+           
+ h2, p, li,  {
+           color: #000000;                    
+           font-family: Times, serif;         
+ }
+</style>
