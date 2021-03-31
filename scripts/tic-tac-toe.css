@@ -1,0 +1,40 @@
+body{
+    background:rgb(101, 2, 139);
+}
+
+
+.gameboard{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+}
+.messageArea {
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;  
+}
+.column {
+    height: 100%;
+    width: 32%;
+    border: 2px solid white;
+    float: left;
+    font-size: 80px;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+}
+.row {
+    height: 32%;
+}
+.rules{
+    height: 50px;
+    text-align: left;
+    color:black;
+    font-size: 100px;
+    font-weight: bolder; 
+}

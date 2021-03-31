@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content= "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/tic-tac-toe.css">
+    <script src="/scripts//tic-tac-toe.js"></script>
+    <title>Tic Tac Toe Game</title>
+</head>
+
+<body>
+<p> RULES FOR TIC-TAC-TOE.
+    The game is played on a grid that's 3 squares by 3 squares.
+    You are X, your friend (or the computer in this case) is O. ...
+    The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
+    When all 9 squares are full, the game is over.</p>
+    
+    <div class="messageArea" id="messageArea">Player 1 Turn.</div>
+
+    <div class="gameboard">
+
+
+<div class="row">
+    <div class="column" onclick="playerMarker(this, 0, 0)"></div>
+    <div class="column" onclick="playerMarker(this, 0, 1)"></div>
+    <div class="column" onclick="playerMarker(this, 0, 2)"></div>
+</div>
+
+<div class="row">
+    <div class="column" onclick="playerMarker(this, 1, 0)"></div>
+    <div class="column" onclick="playerMarker(this, 1, 1)"></div>
+    <div class="column" onclick="playerMarker(this, 1, 2)"></div>
+</div>
+
+<div class="row">
+    <div class="column" onclick="playerMarker(this, 2, 0)"></div>
+    <div class="column" onclick="playerMarker(this, 2, 1)"></div>
+    <div class="column" onclick="playerMarker(this, 2, 2)"></div>
+</div>
+
+    </div>
+
+</body>
+</html>
